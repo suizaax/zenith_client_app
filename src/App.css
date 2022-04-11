@@ -909,8 +909,7 @@ body {
 }
 
 .team-channel-header__name.status {
-  font-weight: 500;
-  font-size: 14px;
+  margin-left: 20px;
 }
 
 .team-channel-header__name.status-online {
@@ -918,7 +917,7 @@ body {
   width: 25px;
   background-color: #40AE51;
   border-radius: 50%;
-  display: inline-block;
+  display: flex;
 }
 
 .team-channel-header__name.staus-offline {
@@ -926,7 +925,7 @@ body {
   width: 25px;
   background-color: #bbb;
   border-radius: 50%;
-  display: inline-block;
+  display: flex;
 }
 
 .team-channel-header__right {
