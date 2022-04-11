@@ -1712,7 +1712,7 @@
     display: none;
   }
   
-  .channerl-list__container-toggle {
+  .channel-list__container-toggle {
     display: none;
     height: 50px;
     width: 50px;
@@ -1738,6 +1738,7 @@
   .str-chat__input-flat {
     width: 100%;
     padding: 10px;
+    color: #0066ff;
   }
   
   @media screen and (max-width: 960px) {
