@@ -55,7 +55,7 @@ const TeamChannelHeader = ({ setIsEditing }) => {
         <div className='team-channel-header__name-wrapper'>
           {members.map(({ user }, i) => (
             <div key={i} className='team-channel-header__name-multi'>
-              <Avatar image={user.image} name={user.fullName || user.id} size={32} />
+              <Avatar image={user.image} name={user.fullName || user.id} size={32} shape="square" />
               <p className='team-channel-header__name user'>{user.fullName || user.id}</p>
               <p className='team-channel-header__name user'>{
                 (user.online === false) ? "Offline" : "Online"
